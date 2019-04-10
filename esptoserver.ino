@@ -79,7 +79,7 @@
     if (WiFi.status()==WL_CONNECTED)
     {
       HTTPClient http;
-      String url="http://myfirstesp1.000webhostapp.com/writetxt.php?data="+d;
+      String url="http://myfirstesp1.000webhostapp.com/writetxt2.php?data="+d;
       http.begin(url);
       http.addHeader("Content-Type","text/plain");
       int httpCode=http.GET();
